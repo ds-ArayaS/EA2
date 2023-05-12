@@ -1,0 +1,64 @@
+/*? Fuentes */
+@font-face {
+  font-family:'kanit';
+  src: url(/EA2/src/fonts/Kanit-MediumItalic.ttf);
+}
+
+/*? Estilos Generales */
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 70px;
+  font-family: 'kanit', sans-serif;
+}
+
+/*? Barra de Navegacion */
+.navbar {
+  padding: 16px;
+  background-color: #292525;
+  font-family:'kanit', sans-serif;
+  font-size: 115%;
+}
+
+.navbar-colapse {
+  align-items: center;
+  justify-content: space-between;
+}
+
+/*? Carousel */
+
+/*? Main Section */
+.main {
+  background-color: #ecd2a1;
+  min-height: 450px;
+  text-align: center;
+}
+.main-sup {
+  padding: 3rem;
+}
+.main-sup h2 {
+  font-size: 25px;
+  font-family: 'kanit', sans-serif;
+  color: #770a06;
+}
+
+/*? Elementos Responsives */
+@media screen and (max-width: 400px) {
+  .navbar-brand {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 350px) {
+  .main-inf-img {
+    max-width: 300px ;
+  }
+}
+
+
+

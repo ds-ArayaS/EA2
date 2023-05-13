@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <title>Inicio de sesion de cliente</title>
+  <link rel="stylesheet" href="css/cssform.css">
+</head>
+
+<body>
+  <div class="center">
+    <h1>Rellena el siguiente formulario</h1>
+    <form action="">
+
+      <div class="txt_field">
+        <label for="nombre">Nombre</label>
+        <input type="text" id='nombre'>
+      </div>
+
+      <div class="txt_field">
+        <label for="Rut">Rut</label>
+        <input type="Rut" id='Rut'>
+      </div>
+
+      <div class="txt_field">
+        <label for="Patente">Patente</label>
+        <input type="Patente" id='Patente'>
+      </div>
+
+
+
+      <div class="txt_field">
+        <label for="Correo">Correo</label>
+        <input type="Correo" id = 'Correo'>
+      </div>
+
+      <input type="submit" onclick='return enviarFormulario();' value='Enviar Formulario'>
+
+      <div class="link_Ayuda">
+        Recuperar Contraseña <a href="#">Clic Aquí</a>
+      </div>
+
+      <div class="link_Ayuda">
+        Crear Cuenta <a href="#">Registrar</a>
+      </div>
+
+    </form>
+
+    <div id='error'></div>
+  </div>
+<script src="/src/js/fromulario.js"></script>
+
+</body>
+
+</html>

@@ -6,7 +6,7 @@ var NumeroTelefono = document.getElementById('NumeroTelefono')
 var error = document.getElementById("error");
 
 
- error.style.color = "grey";
+error.style.color = "grey";
 
 function enviarFormulario() {
     console.log("Enviando Formulario")

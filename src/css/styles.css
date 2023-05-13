@@ -1,7 +1,7 @@
 /*? Fuentes */
 @font-face {
   font-family:'kanit';
-  src: url(/EA2/src/fonts/Kanit-MediumItalic.ttf);
+  src: url(/src/fonts/Kanit-MediumItalic.ttf);
 }
 
 /*? Estilos Generales */
@@ -15,6 +15,26 @@ section {
 h1 {
   font-size: 70px;
   font-family: 'kanit', sans-serif;
+}
+
+.seccion-oscura {
+  color: white;
+  background-color: #1b1b32;
+}
+
+.seccion-clara {
+  color: black;
+  background-color: white;
+}
+
+.seccion-titulo {
+  font-size: 2rem;
+  padding: 15px 0;
+  font-family: 'kanit', sans-serif;
+}
+
+.seccion-texto {
+  font-size: 1.2rem;
 }
 
 /*? Barra de Navegacion */
@@ -31,6 +51,9 @@ h1 {
 }
 
 /*? Carousel */
+.carousel-edit {
+  width: 100%;
+}
 
 /*? Main Section */
 .main {
@@ -45,6 +68,17 @@ h1 {
   font-size: 25px;
   font-family: 'kanit', sans-serif;
   color: #770a06;
+}
+
+/*? Nosotros */
+.about-us {
+  height: 500px;
+  padding: 10px;
+}
+
+.about-us .contenedor {
+  max-width: 600px;
+  text-align: center;
 }
 
 /*? Elementos Responsives */

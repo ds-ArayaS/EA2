@@ -81,6 +81,15 @@ h1 {
   text-align: center;
 }
 
+
+
+
+
+/*? Mecanicos */
+.mecanicos {
+  padding: 30px;
+}
+
 /*? Elementos Responsives */
 @media screen and (max-width: 400px) {
   .navbar-brand {

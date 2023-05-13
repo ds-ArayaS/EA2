@@ -2,6 +2,7 @@ var nombre = document.getElementById("nombre");
 var Correo = document.getElementById("Correo");
 var Rut =document.getElementById('Rut');
 var Patente = document.getElementById('Patente');
+var NumeroTelefono = document.getElementById('NumeroTelefono')
 var error = document.getElementById("error");
 
 
@@ -25,6 +26,10 @@ function enviarFormulario() {
 
     if (Patente.value === null || Patente.value === '') {
         mensajesError.push("Ingresa tu Patente");
+    }
+
+    if (NumeroTelefono.value === null || NumeroTelefono.value === '') {
+        mensajesError.push("Ingresa tu Numero de Telefono");
     }
 
 
